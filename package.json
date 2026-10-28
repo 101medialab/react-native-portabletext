@@ -37,7 +37,7 @@
     "build": "bob build",
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint .",
-    "prepare": "pnpm build",
+    "prepare": "npm run build",
     "release": "changeset publish",
     "test": "jest",
     "type-check": "tsc --noEmit"
